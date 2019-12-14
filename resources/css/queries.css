@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1023px) {
+	html {
+		font-size: 16px;
+	}
+	.row {
+		max-width: 900px;
+		padding: 0 2%;
+	}
+	.hero-text-box {
+		left: 10%;
+	}
+	nav img {
+		left: 10%;
+	}
+	.steps-box:last-of-type {
+		padding-left: 3%;
+		margin-top: 30px;
+	}
+	.sticky .nav-link:link,
+	.sticky .nav-link:visited {
+		padding-bottom: 16px;
+	}
+	.sticky .nav-link:hover,
+	.sticky .nav-link:active {
+		padding-bottom: 16px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.mobile-nav-icon {
+		display: inline-block;
+	}
+	.main-nav {
+		float: left;
+		margin-left: 130px;
+		margin-top: -20px;
+		display: none;
+	}
+	.main-nav li {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.sticky {
+		padding-top: 15px;
+		padding-bottom: 17px;
+		width: 100%;
+		height: auto;
+		background-color: rgba(255, 255, 255, 0.95);
+		position: fixed;
+		top: 0;
+		left: 0;
+		box-shadow: 0 2px 2px #dbdbdb;
+		z-index: 9999;
+	}
+	.sticky .main-nav {
+		margin-top: 0px;
+	}
+	.sticky .mobile-nav-icon i {
+		color: #555555;
+	}
+	.sticky .mobile-nav-icon {
+		margin-top: -10px;
+	}
+
+	.sticky .nav-link:hover,
+	.sticky .nav-link:active {
+		text-decoration: none;
+		color: #f38015;
+		font-size: 85%;
+		text-transform: uppercase;
+		border-bottom: transparent;
+	}
+
+	nav img {
+		height: 70px;
+		width: 70px;
+		margin-top: 1%;
+	}
+	.long-copy {
+		width: 86%;
+		margin-left: 12%;
+	}
+	section {
+		padding: 70px 0;
+	}
+	.app-screen {
+		width: 52%;
+		height: auto;
+	}
+	.steps-box:last-of-type {
+		padding-left: 3%;
+		margin-top: 50px;
+	}
+	.city-feature {
+		font-size: 90%;
+	}
+	.contact-form {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.icon-small {
+		margin-right: 1px;
+	}
+	.plan-box {
+		width: 100%;
+	}
+	.works-step:last-of-type {
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 676px) {
+	html {
+		font-size: 14px;
+	}
+
+	.city-feature {
+		font-size: 95%;
+	}
+	.btn-app img {
+		height: 30px;
+		width: auto;
+		margin-right: 7px;
+	}
+	.works-step {
+		margin-bottom: 30px;
+	}
+	.plan-box li {
+		font-size: 75%;
+	}
+	.plan-box p:first-of-type {
+		font-size: 250%;
+	}
+	footer ul:first-of-type li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	footer ul:first-of-type {
+		list-style: none;
+		float: none;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	footer ul:last-of-type {
+		list-style: none;
+		float: none;
+		text-align: center;
+	}
+	.footer div {
+		text-align: center;
+	}
+	.footer li {
+		margin: 0 auto;
+	}
+	footer div:last-of-type {
+		height: 50%;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.col {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 5%;
+		padding: 1%;
+	}
+	.section-form .col {
+		margin-bottom: 1%;
+	}
+	.app-screen {
+		width: 30%;
+		height: auto;
+	}
+	.steps-box:first-of-type {
+		text-align: center;
+		margin-top: 30px;
+		padding-right: 0%;
+	}
+	.box img {
+		width: 80%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.center-info {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.main-nav {
+		display: none;
+	}
+	.section-cities h3 {
+		text-align: center;
+	}
+	.hero-text-box h1 {
+		font-size: 1.75rem;
+	}
+	.plan-box li {
+		font-size: 90%;
+	}
+}
+@media only screen and (max-width: 480px) {
+}
